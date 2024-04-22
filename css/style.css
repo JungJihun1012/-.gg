@@ -1,0 +1,33 @@
+* {margin: 0; padding: 0; color: inherit; text-decoration: none; list-style: none; box-sizing: border-box;}
+.wrap{width: 100vw; height: 100vh; overflow: hidden; position: relative;} .flex{display: flex;}
+.container{height: 100%; width: 100%; flex-direction: column; display: flex;}
+
+/* header */
+header{height: 60px; width: 100%; display: flex; align-items: center; justify-content: space-between; position: absolute; top: 0;}
+.contents_menuBt{height: 40px; margin-left: 10px; cursor: pointer; transition: 0.5s;}
+.logo{width: 100px; height: 40px; border: 1px solid white; color: white;
+line-height: 40px; text-align: center; margin-right: 15px; cursor: pointer;}
+
+/* nav */
+nav{width: 0px; height: 60px; position: absolute; left: 60px; overflow: hidden; transition: 0.5s;}
+nav>ul{width: 100%; height: 100%; display: flex;}
+nav>ul>li>a{height: 100%; width: 200px; text-align: center; line-height: 50px; background-color: rgba(0, 128, 0, 0.564); 
+cursor: pointer; color: #eee; transition: 0.2s; line-height: 60px; display: block;}
+nav>ul>li>a:hover{font-weight: bold; color: goldenrod;}
+.nav_li{color: #eee; border: none; background: none; cursor: pointer; transition: 0.2s;}
+.nav_li:hover{background-color: rgba(128, 128, 128, 0.642); font-weight: bold;}
+
+/* content */
+.contents{height: 100%; width: 100%;}
+.content{width: 100%; height: 100%; border-bottom: 1px solid black;}
+
+/* mainPage */
+.mainPage{display: flex; justify-content: center; align-items: center; background-image: url(../img/mainPage_bgImg.png); background-size: cover;}
+h1{color: #eee;}
+span{font-size: 56px; color: green;}
+.mainText{font-size: 26px; color: goldenrod;}
+.mainTextBox{width: 100%; height: 100%; flex-direction: column; display: flex; justify-content: center; align-items: center; 
+background-color: rgba(0, 0, 0, 0.642);}
+.startBt{width: 110px; height: 40px; margin: 15px; cursor: pointer; display: flex; justify-content: center; align-items: center; 
+background-color: goldenrod; border: 5px solid silver; position: relative; font-weight: bold; border-radius: 0px 40px 40px 0px;}
+.startBt:hover{color: #eee;}
